@@ -1,0 +1,43 @@
+{
+  "sectionTitle": "Projects",
+  "school": {
+    "title": "School related",
+    "data": [
+      {
+        "title": "Git Mass Manage",
+        "completion": 100,
+        "description": "This project aimed to efficiently manage Git repositories. Working as part of a 4-student team, we successfully accomplished the project by developing a Java-based UI and backend."
+      },
+      {
+        "title": "Spaceship",
+        "completion": 100,
+        "description": "The objective of this project was to create a spaceship using Qt (C/C++). One of the main challenges we faced was optimizing the code to minimize resource consumption."
+      },
+      {
+        "title": "Project Management",
+        "completion": 100,
+        "description": "For this project, we developed a project management website using Angular for the frontend and a Spring Boot backend."
+      }
+    ]
+  },
+  "personal": {
+    "title": "Personal",
+    "data": [
+      {
+        "title": "Cubabois",
+        "completion": 80,
+        "description": "I am delighted to present my current project, Cubabois - an innovative order management software for logging activities. My name is Teddy Sabatier, a software and network engineering student, and I am passionate about creating digital solutions to meet the needs of businesses. During my final internship for my DUT GEII (University Technology Diploma in Electrical Engineering and Industrial Computing), I had the opportunity to develop an order management software for logging activities. Building on this successful experience, I decided to take it a step further and create a web and mobile version of this software, allowing companies to manage their orders remotely and in the field, even without an internet connection. This is how Cubabois was born. With this solution, you can take your smartphone or tablet to the field and enter your orders, even if you don't have an internet connection. Once you are back online, you can easily synchronize your data to ensure that everything is up to date and ready to be processed. I am confident that Cubabois will meet the needs of many logging companies by providing them with a simple and effective solution to manage their orders and activities."
+      },
+      {
+        "title": "Maps scrapping",
+        "completion": 100,
+        "description": "Obtain relevant data by scraping maps for specific combinations of words and locations."
+      },
+      {
+        "title": "Cv online",
+        "completion": 70,
+        "description": "Showcase a detailed presentation of my professional profile on a webpage, effectively resembling a traditional CV format."
+      }
+    ]
+  }
+}

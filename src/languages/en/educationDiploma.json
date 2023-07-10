@@ -1,0 +1,38 @@
+{
+  "sectionTitle": "Education and diploma",
+  "actionOnClick": "Open school website",
+  "data": [
+    {
+      "degree": "Engineer degree in FISE ",
+      "description": "Engineer training under student status",
+      "institution": "Télécom Saint-Etienne",
+      "startDate": "September 2020",
+      "endDate": "",
+      "link":"https://www.telecom-st-etienne.fr/en/formation/engineer-telecom-saint-etienne/"
+    },
+    {
+      "degree": "Integrated preparatory course “CITISE”",
+      "description": "Undergraduate Technology Degree in Electrical Engineering and Industrial Computing and 2 years of studies in physics",
+      "institution": "Télécom Saint-Etienne, university Jean Monnet",
+      "startDate": "",
+      "endDate": "June 2020",
+      "link":"https://www.telecom-st-etienne.fr/en/formation/citise-integrated-preparation/"
+    },
+    {
+      "degree": "Scientific Baccalaureate at Simone-Weil High School",
+      "description": "Specialization in Earth Sciences and Life, with a focus on computer science and digital sciences, with highest honors",
+      "institution": "Saint-Priest-en-Jarez",
+      "startDate": "",
+      "endDate": "June 2018",
+      "link":"https://simone-weil.ent.auvergnerhonealpes.fr/"
+    },
+    {
+      "degree": "UD (University Diploma) ",
+      "description": "Management of ideas in the digital sector",
+      "institution": "Saint-Etienne Télécom",
+      "startDate": "",
+      "endDate": "June 2022",
+      "link":"https://www.telecom-st-etienne.fr/en/formation/engineer-telecom-saint-etienne/"
+    }
+  ]
+}

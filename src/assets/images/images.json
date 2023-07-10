@@ -1,0 +1,51 @@
+{
+  "hobbies": {
+    "reading":[
+      {
+        "filename": "sololevelling.jpg",
+        "link":"",
+        "path":"/images/hobbies/reading/sololevelling.jpg",
+        "alt":"Solo levelling"
+      },
+      {
+        "filename": "thebeginningaftertheend.jpg",
+        "link":"https://sonvdsnote.blogspot.com/2020/09/novel-beginning-after-end-chapter-294_12.html",
+        "path":"/images/hobbies/reading/thebeginningaftertheend.jpg",
+        "alt":"Beginning after the end"
+      },
+      {
+        "filename": "mercenaryenrollment.jpg",
+        "link":"",
+        "path":"/images/hobbies/reading/mercenaryenrollment.jpg",
+        "alt":"Mercenary enrollment"
+      },
+      {
+        "filename": "kingdom.jpg",
+        "link":"https://www.anime-store.fr/as/images/visuels/produit_derive/grande/2706.jpg",
+        "path":"/images/hobbies/reading/kingdom.jpg",
+        "alt":"Kindgom"
+      }
+      
+    ],
+    "sport":[
+      {
+        "filename": "streetworkout.jpg",
+        "link":"https://tse2.mm.bing.net/th?id=OIP.so-o0Ek6YVXQAf0NsvjZ1AHaEK&pid=Api",
+        "path":"/images/hobbies/sport/streetworkout.jpg",
+        "alt":"Street workout plank"
+      },
+      {
+        "filename": "handball.jpg",
+        "link":"https://tse2.mm.bing.net/th?id=OIP.pQ_ecCunHGn_9vVJA21owwHaF0&pid=Api",
+        "path":"/images/hobbies/sport/handball.jpg",
+        "alt":"Handball player"
+      },
+      {
+        "filename": "volleyball.jpg",
+        "link":"https://tse1.mm.bing.net/th?id=OIP.wPlmMgAGtFcOVQEDyhhcGAHaHa&pid=Api",
+        "path":"/images/hobbies/sport/volleyball.jpg",
+        "alt":"Volley ball"
+      }
+    ]
+  }
+}

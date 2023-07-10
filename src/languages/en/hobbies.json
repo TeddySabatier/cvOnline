@@ -1,0 +1,99 @@
+{
+  "sectionTitle": "Hobbies",
+  "data": [
+    {
+      "title": "Reading",
+      "description": "Manhwas, mangas, and proper books...",
+      "keyImage": "reading",
+      "subparts": [
+        {
+          "subtitle": "Manhwas",
+          "subcontent": "Manhwa is a general term used in Korea to refer to comics and print cartoons, particularly those originating from South Korea. Manhwas are heavily influenced by Japanese Manga comics and have gained popularity worldwide. With the advent of Webtoons, these comics have expanded beyond Korea and have even been adapted into movies and television shows."
+        },
+        {
+          "subtitle": "Mangas",
+          "subcontent": "Mangas are comics or graphic novels that originated in Japan. They follow a distinctive style developed in Japan during the late 19th century and have a rich history in Japanese art. While the term 'manga' is used in Japan to refer to both comics and cartooning, outside Japan, it generally refers to comics originally published in Japan."
+        },
+        {
+          "subtitle": "Books",
+          "subcontent": "I particularly enjoy fantasy books with adventurous themes. They provide an escape from reality and offer a refreshing perspective. Completing a reading session leaves me with a sense of mental rejuvenation."
+        }
+      ]
+    },
+    {
+      "title": "Sports",
+      "description": "Street workout, volleyball, handball",
+      "keyImage": "sport",
+      "subparts": [
+        {
+          "subtitle": "Street workout",
+          "subcontent": "Since I was around 12 years old, I have been involved in working out. I started at home and then transitioned to a gym. Currently, I practice street workout, which not only exhausts my body but also helps me clear my mind. The static positions involved in my work is also one reason I practice street workout to help mitigate the risks caused by a repeated static position."
+        },
+        {
+          "subtitle": "Volleyball",
+          "subcontent": "I began playing volleyball at the age of 16 at my school campus. I took additional courses and played volleyball every Thursday. Wednesdays were reserved for competitions. Although I still enjoy playing volleyball with friends, I don't foresee joining a club in the near future due to my focus on street workout."
+        },
+        {
+          "subtitle": "Handball",
+          "subcontent": "I played handball for 5 years, primarily in the center back position. My role involved making strategic decisions based on the players' positions. It was challenging at the time, but it significantly improved my decision-making skills and field perception."
+        }
+      ]
+    },
+    {
+      "title": "Programming",
+      "description": "Experimenting with projects.",
+      "keyImage": "programming",
+      "subparts": [
+        {
+          "subtitle": "Why it's interesting",
+          "subcontent": "For me, the most enjoyable aspect of programming projects is automating tasks, improving efficiency, and saving time. As an engineer, this is what motivates me. Creating an app, for example, that can be utilized by many people to simplify their lives gives me a great sense of satisfaction."
+        },
+        {
+          "subtitle": "What kind of experience",
+          "subcontent": "I find pleasure in exploring and experimenting with new coding methods, shortcuts, and programming languages. These endeavors enable IT professionals to become more efficient. One example is mastering your code editor, such as VSCode, where countless shortcuts exist, allowing me to code at a faster pace without relying heavily on the mouse."
+        }
+      ]
+    },
+    {
+      "title": "Social interactions",
+      "description": "Discovering new cultures, learning from body language...",
+      "keyImage": "social_interaction",
+      "subparts": [
+        {
+          "subtitle": "Travels",
+          "subcontent": "Although it may sound commonplace, traveling and witnessing landscapes firsthand remain incredibly important to me. Equally significant is engaging with locals, immersing myself in their culture, and incorporating aspects I admire into my daily life."
+        },
+        {
+          "subtitle": "Conversations",
+          "subcontent": "I am a talkative person, and I derive great interest from conversing with individuals passionate about their respective fields. Learning from someone with extensive knowledge is truly fascinating. When they explain a subject with enthusiasm, it ignites a spark within me and becomes a source of inspiration."
+        }
+      ]
+    },
+    {
+      "title": "History",
+      "description": "Learning about historical events and finding parallels with the present.",
+      "keyImage": "history",
+      "subparts": [
+        {
+          "subtitle": "Mythology",
+          "subcontent": "Mythology is a subject that deeply captivates me. During my teenage years, I avidly read books and watched documentaries on the topic. One of my goals is to visit the temples in Greece and explore the ancient civilizations that have left their mark on history."
+        },
+        {
+          "subtitle": "Uchronia",
+          "subcontent": "Uchronia refers to a hypothetical or fictional time period within our world, as opposed to completely fictional lands or worlds. I am particularly interested in a French YouTuber named Alterhis who delves into uchronia and even makes predictions. It is fascinating to see historical events brought back to life and reimagined."
+        }
+      ]
+    },
+    {
+      "title": "Videogames",
+      "description": "Playing, delving into lore, watching gameplays...",
+      "keyImage": "videogames",
+      "subparts": [
+        {
+          "subtitle": "Games I play",
+          "subcontent": "I have played numerous games, but currently, I mostly engage in Minecraft. It is an incredibly creative game that is easy to start with, but as you delve deeper, it becomes increasingly complex (redstone, in particular, can be quite challenging)."
+        }
+      ]
+    }
+  ]
+}

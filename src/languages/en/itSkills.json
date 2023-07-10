@@ -1,0 +1,60 @@
+{
+  "sectionTitle": "IT Skills",
+  "data": [
+    {
+      "language": "C/C++/C#",
+      "grade10": 7,
+      "description": "I have utilized C/C++/C# in various projects during my undergraduate studies, which marked my initial immersion into programming. More recently, I employed these languages to create a small 3D game with a spaceship using Qt. Although I may require some time to regain familiarity, I am confident in my skills."
+    },
+    {
+      "language": "Java",
+      "grade10": 8,
+      "description": "Java has been extensively employed in numerous school projects. Additionally, I utilized Spring Boot to develop an API and collaborated with classmates on a Java-based software for efficient management of Git projects. Several lessons and smaller projects also revolved around Java."
+    },
+    {
+      "language": "React JS",
+      "grade10": 9,
+      "description": "Currently, I am extensively using React JS for my lumber project and during my internship. I consider myself highly experienced in React JS."
+    },
+    {
+      "language": "Angular",
+      "grade10": 8,
+      "description": "While primarily employed for school projects, I find that the skills I acquired in React can be easily transferred to Angular."
+    },
+    {
+      "language": "Mongo",
+      "grade10": 8,
+      "description": "Thanks to my internship and personal projects, I have gained substantial familiarity with Mongo, making it one of the databases I am most comfortable with."
+    },
+    {
+      "language": "SQL",
+      "grade10": 6,
+      "description": "SQL was my starting point, and I have retained proficiency in it, enabling me to perform logical operations with ease."
+    },
+    {
+      "language": "Cassandra",
+      "grade10": 4,
+      "description": "I utilized Cassandra for a school project and, with some training, I can grasp its syntax and logic."
+    },
+    {
+      "language": "GraphQL",
+      "grade10": 4,
+      "description": "I employed GraphQL for a school project and, with additional training, I can understand its syntax and logic."
+    },
+    {
+      "language": "Express",
+      "grade10": 8,
+      "description": "Similar to Mongo, I have extensive experience with Express through my internship and personal projects."
+    },
+    {
+      "language": "Python",
+      "grade10": 8.5,
+      "description": "Python is often one of the initial languages for many developers, including myself. I am adept at data manipulation with Python and have utilized it for web development using Django, as well as machine learning with skLearn."
+    },
+    {
+      "language": "VBA (Visual Basic for Applications)",
+      "grade10": 8.5,
+      "description": "I primarily employ VBA to assist my father in managing his Excel sheets and automate complex tasks or create user forms."
+    }
+  ]
+}

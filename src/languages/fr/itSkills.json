@@ -1,0 +1,60 @@
+{
+  "sectionTitle": "Compétences informatiques",
+  "data": [
+    {
+      "language": "C/C++/C#",
+      "grade10": 7,
+      "description": "J'ai utilisé les langages C/C++/C# dans divers projets pendant mes études universitaires, ce qui m'a plongé dans le monde de la programmation. Récemment, j'ai créé un petit jeu en 3D avec un vaisseau spatial en utilisant Qt. Bien que je doive prendre un peu de temps pour me remettre à niveau, je suis confiant dans mes compétences."
+    },
+    {
+      "language": "Java",
+      "grade10": 8,
+      "description": "Java a été largement utilisé dans de nombreux projets scolaires. J'ai également utilisé Spring Boot pour développer une API et j'ai collaboré avec mes camarades de classe sur un logiciel basé sur Java pour gérer efficacement les projets Git. J'ai également suivi des cours et réalisé des petits projets en Java."
+    },
+    {
+      "language": "React JS",
+      "grade10": 9,
+      "description": "Actuellement, j'utilise intensivement React JS pour mon projet de menuiserie et pendant mon stage. Je considère avoir une grande expérience en React JS."
+    },
+    {
+      "language": "Angular",
+      "grade10": 8,
+      "description": "Bien que principalement utilisé pour des projets scolaires, je trouve que les compétences que j'ai acquises en React peuvent être facilement transférées à Angular."
+    },
+    {
+      "language": "Mongo",
+      "grade10": 8,
+      "description": "Grâce à mon stage et à mes projets personnels, je suis devenu très à l'aise avec Mongo et je le considère comme l'une de mes bases de données préférées."
+    },
+    {
+      "language": "SQL",
+      "grade10": 6,
+      "description": "SQL a été mon point de départ et je suis toujours à l'aise avec cette technologie, ce qui me permet d'effectuer des opérations logiques facilement."
+    },
+    {
+      "language": "Cassandra",
+      "grade10": 4,
+      "description": "J'ai utilisé Cassandra dans le cadre d'un projet scolaire et, avec un peu de formation, j'ai pu comprendre sa syntaxe et sa logique."
+    },
+    {
+      "language": "GraphQL",
+      "grade10": 4,
+      "description": "J'ai utilisé GraphQL pour un projet scolaire et, avec une formation supplémentaire, je peux comprendre sa syntaxe et sa logique."
+    },
+    {
+      "language": "Express",
+      "grade10": 8,
+      "description": "Tout comme Mongo, j'ai une vaste expérience avec Express grâce à mon stage et à mes projets personnels."
+    },
+    {
+      "language": "Python",
+      "grade10": 8.5,
+      "description": "Python est souvent l'un des premiers langages de programmation pour de nombreux développeurs, y compris moi-même. Je suis à l'aise avec la manipulation des données en Python et je l'ai utilisé pour le développement web avec Django, ainsi que pour l'apprentissage automatique avec skLearn."
+    },
+    {
+      "language": "VBA (Visual Basic for Applications)",
+      "grade10": 8.5,
+      "description": "J'utilise principalement VBA pour aider mon père à gérer ses feuilles Excel et automatiser des tâches complexes ou créer des formulaires utilisateur."
+    }
+  ]
+}

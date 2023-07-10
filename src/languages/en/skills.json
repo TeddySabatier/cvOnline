@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Skills",
+  "strong": {
+    "data": [
+      {
+        "name": "Social",
+        "description": "I fit in teams."
+      },
+      {
+        "name": "Organized",
+        "description": "I keep my branches and commit clean."
+      },
+      {
+        "name": "Calm",
+        "description": "Keeps a cool head while debugging."
+      }
+    ]
+  },
+  "weak": {
+    "data": [
+      {
+        "name": "Focused",
+        "description": "Overly into brain taking tasks."
+      },
+      {
+        "name": "Highly sensitive",
+        "description": "Sensitive to the atmosphere of the company."
+      },
+      {
+        "name": "Empathic",
+        "description": "It can be hard to say no."
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sectionTitle": "Projets",
+  "school": {
+    "title": "Projets scolaires",
+    "data": [
+      {
+        "title": "Git Mass Manage",
+        "completion": 100,
+        "description": "Ce projet avait pour objectif de gérer efficacement les dépôts Git. Travaillant au sein d'une équipe de 4 étudiants, nous avons réussi à accomplir le projet en développant une interface utilisateur et une partie backend basées sur Java."
+      },
+      {
+        "title": "Spaceship",
+        "completion": 100,
+        "description": "L'objectif de ce projet était de créer un vaisseau spatial en utilisant Qt (C/C++). Un des principaux défis auxquels nous avons été confrontés était d'optimiser le code pour minimiser la consommation de ressources."
+      },
+      {
+        "title": "Gestion de projet",
+        "completion": 100,
+        "description": "Pour ce projet, nous avons développé un site web de gestion de projet en utilisant Angular pour le frontend et Spring Boot pour le backend."
+      }
+    ]
+  },
+  "personal": {
+    "title": "Projets personnels",
+    "data": [
+      {
+        "title": "Cubabois",
+        "completion": 80,
+        "description": "Je suis ravie de vous présenter mon projet actuel, Cubabois, un logiciel innovant de gestion des commandes pour les activités de bûcheronnage. Je m'appelle Teddy Sabatier, étudiant en ingénierie logicielle et réseaux, et je suis passionné par la création de solutions numériques pour répondre aux besoins des entreprises. Pendant mon stage de fin d'études pour mon DUT GEII (Diplôme Universitaire de Technologie en Génie Électrique et Informatique Industrielle), j'ai eu l'opportunité de développer un logiciel de gestion des commandes pour les activités de bûcheronnage. Fort de cette expérience réussie, j'ai décidé d'aller plus loin en créant une version web et mobile de ce logiciel, permettant aux entreprises de gérer leurs commandes à distance et sur le terrain, même sans connexion internet. C'est ainsi que Cubabois est né. Grâce à cette solution, vous pouvez utiliser votre smartphone ou votre tablette sur le terrain pour saisir vos commandes, même en l'absence de connexion internet. Une fois de retour en ligne, vous pouvez facilement synchroniser vos données pour vous assurer que tout est à jour et prêt à être traité. Je suis convaincu que Cubabois répondra aux besoins de nombreuses entreprises de bûcheronnage en leur fournissant une solution simple et efficace pour gérer leurs commandes et leurs activités."
+      },
+      {
+        "title": "Maps scrapping",
+        "completion": 100,
+        "description": "Obtenir des données pertinentes en explorant les cartes à la recherche de combinaisons spécifiques de mots et d'emplacements."
+      },
+      {
+        "title": "Cv en ligne",
+        "completion": 70,
+        "description": "Créer une présentation détaillée de mon profil professionnel sous la forme d'une page web, reproduisant efficacement le format traditionnel d'un CV."
+      }
+    ]
+  }
+}

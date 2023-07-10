@@ -1,0 +1,38 @@
+{
+  "sectionTitle": "Education et diplômes",
+  "actionOnClick": "Ouvrir site de l'école",
+  "data": [
+    {
+      "degree": "Cycle d'ingénieur FISE",
+      "description": "Formation d'ingénieur sous statut étudiant",
+      "institution": "Télécom Saint-Etienne",
+      "startDate": "septembre 2020",
+      "endDate": "",
+      "link": "https://www.telecom-st-etienne.fr/formation/ingenieur-telecom-saint-etienne/"
+    },
+    {
+      "degree": "DU CITISE ",
+      "description": "Cycle préparatoire avec validation d'un DUT GEII et d'une L2 de Physique",
+      "institution": "Saint-Etienne Télécom,  université Jean Monnet",
+      "startDate": "",
+      "endDate": "juin 2020",
+      "link": "https://www.telecom-st-etienne.fr/formation/prepa-integree-citise/"
+    },
+    {
+      "degree": "Bac scientifique Lycée Simone-Weil",
+      "description": "Spécialisation Sciences et vie de la terre option informatique et sciences du numérique mention très bien",
+      "institution": "Saint-Priest-en-Jarez",
+      "startDate": "",
+      "endDate": "juin 2018",
+      "link": "https://simone-weil.ent.auvergnerhonealpes.fr/"
+    },
+    {
+      "degree": "DU (Diplôme universitaire)",
+      "description": "Gestion des idées dans le secteur du numérique",
+      "institution": "Saint-Étienne Télécom",
+      "startDate": "",
+      "endDate": "juin 2022",
+      "link": "https://www.telecom-st-etienne.fr/formation/ingenieur-telecom-saint-etienne/"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "sectionTitle": "Passions",
+  "data": [
+    {
+      "title": "Lecture",
+      "description": "Manhwas, mangas et livres classiques...",
+      "keyImage": "reading",
+      "subparts": [
+        {
+          "subtitle": "Manhwas",
+          "subcontent": "Le terme 'manhwa' est utilisé en Corée pour désigner les bandes dessinées et les dessins animés imprimés, en particulier ceux d'origine sud-coréenne. Les manhwas sont fortement influencés par les mangas japonais et ont gagné en popularité dans le monde entier. Avec l'avènement des Webtoons, ces bandes dessinées se sont étendues au-delà de la Corée et ont même été adaptées en films et en séries télévisées."
+        },
+        {
+          "subtitle": "Mangas",
+          "subcontent": "Les mangas sont des bandes dessinées ou des romans graphiques originaires du Japon. Ils suivent un style distinctif développé au Japon à la fin du XIXe siècle et ont une riche histoire dans l'art japonais. Bien que le terme 'manga' soit utilisé au Japon pour désigner à la fois les bandes dessinées et le dessin animé, en dehors du Japon, il se réfère généralement aux bandes dessinées originellement publiées au Japon."
+        },
+        {
+          "subtitle": "Livres",
+          "subcontent": "J'apprécie particulièrement les livres de fantasy avec des thèmes d'aventure. Ils offrent une évasion de la réalité et offrent une perspective rafraîchissante. Terminer une session de lecture me laisse une sensation de rajeunissement mental."
+        }
+      ]
+    },
+    {
+      "title": "Sports",
+      "description": "Street workout, volley-ball, handball",
+      "keyImage": "sport",
+      "subparts": [
+        {
+          "subtitle": "Street workout",
+          "subcontent": "Depuis que j'ai environ 12 ans, je m'entraîne. J'ai commencé à la maison puis je suis passé à une salle de sport. Actuellement, je pratique le street workout, qui non seulement épuise mon corps mais m'aide aussi à clarifier mon esprit. Les positions statiques impliquées dans mon travail sont également une raison pour laquelle je pratique le street workout afin de réduire les risques causés par une position statique répétée."
+        },
+        {
+          "subtitle": "Volley-ball",
+          "subcontent": "J'ai commencé à jouer au volley-ball à l'âge de 16 ans sur le campus de mon école. J'ai suivi des cours supplémentaires et joué au volley-ball tous les jeudis. Les mercredis étaient réservés aux compétitions. Bien que j'aime toujours jouer au volley-ball avec des amis, je ne prévois pas de rejoindre un club dans un avenir proche en raison de ma concentration sur le street workout."
+        },
+        {
+          "subtitle": "Handball",
+          "subcontent": "J'ai joué au handball pendant 5 ans, principalement en tant que demi-centre. Mon rôle consistait à prendre des décisions stratégiques en fonction de la position des joueurs. C'était un défi à l'époque, mais cela a considérablement amélioré mes compétences en prise de décision et ma perception du terrain."
+        }
+      ]
+    },
+    {
+      "title": "Programmation",
+      "description": "Expérimenter avec des projets.",
+      "keyImage": "programming",
+      "subparts": [
+        {
+          "subtitle": "Pourquoi c'est intéressant",
+          "subcontent": "Pour moi, l'aspect le plus agréable des projets de programmation est l'automatisation des tâches, l'amélioration de l'efficacité et le gain de temps. En tant qu'ingénieur, c'est ce qui me motive. Créer une application, par exemple, qui peut être utilisée par de nombreuses personnes pour simplifier leur vie me procure une grande satisfaction."
+        },
+        {
+          "subtitle": "Quelle sorte d'expérience",
+          "subcontent": "Je prends plaisir à explorer et à expérimenter de nouvelles méthodes de codage, des raccourcis et des langages de programmation. Ces efforts permettent aux professionnels de l'informatique d'être plus efficaces. Un exemple est de maîtriser votre éditeur de code, comme VSCode, où d'innombrables raccourcis existent, me permettant de coder plus rapidement sans dépendre trop de la souris."
+        }
+      ]
+    },
+    {
+      "title": "Interactions sociales",
+      "description": "Découvrir de nouvelles cultures, apprendre du langage corporel...",
+      "keyImage": "social_interaction",
+      "subparts": [
+        {
+          "subtitle": "Voyages",
+          "subcontent": "Bien que cela puisse sembler banal, voyager et voir les paysages de mes propres yeux reste incroyablement important pour moi. Il est tout aussi significatif de m'impliquer avec les habitants, de m'immerger dans leur culture et d'incorporer les aspects qui m'inspirent dans ma vie quotidienne."
+        },
+        {
+          "subtitle": "Conversations",
+          "subcontent": "Je suis une personne bavarde et je suis très intéressé par les conversations avec des personnes passionnées par leurs domaines respectifs. Apprendre de quelqu'un qui possède une connaissance approfondie est vraiment fascinant. Lorsqu'ils expliquent un sujet avec enthousiasme, cela allume une étincelle en moi et devient une source d'inspiration."
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "description": "Apprendre sur les événements historiques et trouver des parallèles avec le présent.",
+      "keyImage": "history",
+      "subparts": [
+        {
+          "subtitle": "Mythologie",
+          "subcontent": "La mythologie est un sujet qui me fascine profondément. Pendant mon adolescence, j'ai lu avidement des livres et regardé des documentaires sur le sujet. L'un de mes objectifs est de visiter les temples en Grèce et d'explorer les anciennes civilisations qui ont laissé leur empreinte dans l'histoire."
+        },
+        {
+          "subtitle": "Uchronie",
+          "subcontent": "L'uchronie fait référence à une période temporelle hypothétique ou fictive au sein de notre monde, par opposition à des terres ou des mondes totalement fictifs. Je m'intéresse particulièrement à un YouTuber français nommé Alterhis qui explore l'uchronie et fait même des prédictions. Il est fascinant de voir les événements historiques revivre et être réimaginés."
+        }
+      ]
+    },
+    {
+      "title": "Jeux vidéo",
+      "description": "Jouer, plonger dans l'univers, regarder des parties...",
+      "keyImage": "videogames",
+      "subparts": [
+        {
+          "subtitle": "Jeux auxquels je joue",
+          "subcontent": "J'ai joué à de nombreux jeux, mais actuellement, je suis principalement investi dans Minecraft. C'est un jeu incroyablement créatif qui est facile à prendre en main, mais qui devient de plus en plus complexe à mesure que l'on plonge plus profondément (la redstone, en particulier, peut être assez défiante)."
+        }
+      ]
+    }
+  ]
+}
