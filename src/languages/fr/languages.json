@@ -1,0 +1,20 @@
+{
+  "sectionTitle": "Langages",
+  "data": [
+    {
+      "language": "Français",
+      "level": "Natif",
+      "description": "En tant que natif de France, le français est ma langue maternelle."
+    },
+    {
+      "language": "Anglais",
+      "level": "Courant",
+      "description": "Je pratique l'anglais quotidiennement depuis les quatre dernières années et je suis maintenant confiant dans mes compétences en anglais et en français."
+    },
+    {
+      "language": "Espagnol",
+      "level": "Basique",
+      "description": "J'ai un niveau débutant en espagnol avec des bases acquises à l'école."
+    }
+  ]
+}

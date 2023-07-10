@@ -1,0 +1,88 @@
+{
+  "sectionTitle": "Experiences",
+  "dateTitle": "Date",
+  "tasksTitle": "Tâche",
+  "descriptionTitle": "Description",
+  "month":"mois",
+  "week":"semaine",
+  "day":"jour",
+  "data": [
+    {
+      "company": "Thales LAS France SAS",
+      "post": "Stagiaire",
+      "location": "Saint-Héand, France",
+      "dates": [
+        {
+          "startDate": "01/06/2020",
+          "endDate": "01/08/2020"
+        },
+        {
+          "startDate": "01/01/2021",
+          "endDate": "01/02/2021"
+        }
+      ],
+      "tasks": [
+        "Construction de fichiers Excel automatisés (VBA)",
+        "Importation et traitement de données à partir de fichiers .csv",
+        "Construction d'un EAC (Estimate At Completion)",
+        "C++"
+      ],
+      "description": "Lors de mon stage chez Thales LAS France SAS, j'étais chargé de construire des fichiers Excel automatisés à l'aide de VBA et de gérer l'importation et le traitement de données à partir de fichiers .csv. De plus, j'ai travaillé sur la construction d'un Estimate At Completion (EAC) et acquis de l'expérience en C++. Ce fut une occasion remarquable de travailler avec une équipe de huit membres et de découvrir le fonctionnement interne de grandes entreprises."
+    },
+    {
+      "company": "Forest Management in Company Cresci Alexandre",
+      "post": "Stagiaire",
+      "location": "Saint-Pierre-Du-Champ, France",
+      "dates": [
+        {
+          "startDate": "01/06/2020",
+          "endDate": "30/06/2020"
+        }
+      ],
+      "tasks": [
+        "Construction d'un logiciel de gestion de cubage du bois",
+        "Interface frontale avec C# et backend avec C/C++",
+        "Base de données en SQL"
+      ],
+      "description": "Lors de mon stage chez Forest Management in Company Cresci Alexandre, j'ai développé un logiciel de gestion de cubage du bois. L'interface frontale a été créée en utilisant C#, tandis que le backend impliquait C/C++. De plus, j'ai conçu une base de données en utilisant SQL. Malgré les défis posés par la période COVID-19, j'ai réussi à créer une solution logicielle qui est encore utilisée par les bûcherons aujourd'hui. Cette expérience m'a appris à travailler à distance et m'a fourni des informations précieuses."
+    },
+    {
+      "company": "Limpide",
+      "post": "Stagiaire",
+      "location": "Prague, République tchèque",
+      "dates": [
+        {
+          "startDate": "20/02/2023",
+          "endDate": "20/08/2023"
+        }
+      ],
+      "tasks": [
+        "Gestion et mise à niveau d'une infrastructure basée sur MERN (Mongo, Express, React, Node)",
+        "Développement de nouvelles fonctionnalités"
+      ],
+      "description": "Chez Limpide, une startup spécialisée dans l'aide aux entreprises françaises pour sécuriser les meilleurs prix de l'énergie, j'ai eu l'occasion de gérer et de mettre à niveau une infrastructure basée sur la pile MERN (Mongo, Express, React, Node). De plus, j'ai travaillé sur le développement de nouvelles fonctionnalités. Mes responsabilités comprenaient le travail avec des machines virtuelles, des services cloud et le développement d'un front-end React.js avec une API REST mise en œuvre avec Express et MongoDB."
+    },
+    {
+      "company": "Festieat",
+      "post": "Employé",
+      "location": "Port Barcarès, France",
+      "dates": [
+        {
+          "startDate": "10/07/2020",
+          "endDate": "14/07/2020"
+        },
+        {
+          "startDate": "10/07/2021",
+          "endDate": "14/07/2021"
+        }
+      ],
+      "tasks": [
+        "Gestion des clients",
+        "Caissier",
+        "Barman",
+        "Portier"
+      ],
+      "description": "À deux reprises en juillet 2020 et juillet 2021, j'ai travaillé en tant qu'employé chez Festieat, un bar situé à Port Barcarès. Mes rôles comprenaient la gestion des clients, la tenue de la caisse, le service en tant que barman et le travail en tant que portier. Bien que le travail soit exigeant et épuisant, cette expérience m'a appris la valeur du travail acharné et ses résultats gratifiants."
+    }
+  ]
+}

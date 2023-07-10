@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Compétences",
+  "strong": {
+    "data": [
+      {
+        "name": "Social",
+        "description": "Je m'intègre vite dans une équipe."
+      },
+      {
+        "name": "Organisé",
+        "description": "Je garde mes commits et branches clean."
+      },
+      {
+        "name": "Calme",
+        "description": "Je garde la tête froide quand je debug."
+      }
+    ]
+  },
+  "weak": {
+    "data": [
+      {
+        "name": "Concentré",
+        "description": "Aspiré par des tâches demandantes."
+      },
+      {
+        "name": "Sensible",
+        "description": "Capte l'atmosphère de l'entreprise."
+      },
+      {
+        "name": "Empathique",
+        "description": "Il peut être dur de dire non."
+      }
+    ]
+  }
+}

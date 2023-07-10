@@ -1,0 +1,20 @@
+{
+  "sectionTitle": "Languages",
+  "data": [
+    {
+      "language": "French",
+      "level": "Native",
+      "description": "As a native of France, French is my first language."
+    },
+    {
+      "language": "English",
+      "level": "Fluent",
+      "description": "I have been practicing English on a daily basis for the past four years, and I am now confident in both my English and French language skills."
+    },
+    {
+      "language": "Spanish",
+      "level": "Basic",
+      "description": "I have a beginner level in Spanish with a foundation in school basics."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "sectionTitle": "Experiences",
+  "dateTitle": "Date",
+  "tasksTitle": "Task",
+  "descriptionTitle": "Description",
+  "month":"month",
+  "week":"week",
+  "day":"day",
+  "data": [
+    {
+      "company": "Limpide",
+      "post": "Intern",
+      "location": "Prague, Czech Republic",
+      "dates": [
+        {
+          "startDate": "20/02/2023",
+          "endDate": "20/08/2023"
+        }
+      ],
+      "tasks": [
+        "Managing and upgrading an infrastructure running on MERN (Mongo, Express, React, Node)",
+        "Developing new features"
+      ],
+      "description": "At Limpide, a startup focused on helping French companies secure the best energy prices, I had the opportunity to manage and upgrade an infrastructure running on the MERN stack (Mongo, Express, React, Node). Additionally, I worked on developing new features. My responsibilities included working with virtual machines, cloud services, and developing a React.js front-end with a REST API implemented in Express and MongoDB."
+    },
+    {
+      "company": "Thales LAS France SAS",
+      "post": "Intern",
+      "location": "Saint-Héand, France",
+      "dates": [
+        {
+          "startDate": "01/06/2020",
+          "endDate": "01/08/2020"
+        },
+        {
+          "startDate": "01/01/2021",
+          "endDate": "01/02/2021"
+        }
+      ],
+      "tasks": [
+        "Building automated Excel files (VBA)",
+        "Importation and processing of data from .csv files",
+        "Building an EAC (Estimate At Completion)",
+        "C++"
+      ],
+      "description": "During my internship at Thales LAS France SAS, I was responsible for building automated Excel files using VBA and handling the importation and processing of data from .csv files. Additionally, I worked on constructing an Estimate At Completion (EAC) and gained experience in C++. It was a remarkable opportunity to work with a team of eight members and discover the inner workings of sizable companies."
+    },
+    {
+      "company": "Forest Management in Company Cresci Alexandre",
+      "post": "Intern",
+      "location": "Saint-Pierre-Du-Champ, France",
+      "dates": [
+        {
+          "startDate": "01/06/2020",
+          "endDate": "30/06/2020"
+        }
+      ],
+      "tasks": [
+        "Building a management software for lumberjacks",
+        "Front-end with C# and back-end with C/C++",
+        "Database in SQL"
+      ],
+      "description": "During my internship at Forest Management in Company Cresci Alexandre, I developed a wood cubing management software. The front-end was created using C#, while the back-end involved C/C++. Furthermore, I designed a database using SQL. Despite the challenges posed by the COVID-19 period, I successfully managed to create a software solution that is still being utilized by lumberjacks today. This experience taught me how to work remotely and provided me with valuable insights."
+    },
+    {
+      "company": "Festieat",
+      "post": "Employee",
+      "location": "Port Barcarès, France",
+      "dates": [
+        {
+          "startDate": "10/07/2020",
+          "endDate": "14/07/2020"
+        },
+        {
+          "startDate": "10/07/2021",
+          "endDate": "14/07/2021"
+        }
+      ],
+      "tasks": [
+        "Managing clients",
+        "Cashier",
+        "Barman",
+        "Porter"
+      ],
+      "description": "During two separate occasions in July 2020 and July 2021, I worked as an employee at Festieat, a bar located in Port Barcarès. My roles included managing clients, handling cashier duties, serving as a barman, and working as a porter. Although the work was demanding and exhausting, this experience taught me the value of hard work and its rewarding outcomes."
+    }
+  ]
+}
