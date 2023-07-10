@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cvonline/static/css/main.df3b6d63.css",
+    "main.js": "/cvonline/static/js/main.b01ff611.js",
+    "static/js/337.8eca14bb.chunk.js": "/cvonline/static/js/337.8eca14bb.chunk.js",
+    "static/js/66.4d29a323.chunk.js": "/cvonline/static/js/66.4d29a323.chunk.js",
+    "index.html": "/cvonline/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.df3b6d63.css",
+    "static/js/main.b01ff611.js"
+  ]
+}
