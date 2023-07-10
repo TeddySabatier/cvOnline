@@ -47,7 +47,7 @@ const AppBarCustom = ({ handleClick, languageSelected }) => {
   TRANSLATION.setLanguage(languageSelected);
 
   const handleDownload = () => {
-
+    alert('Still working on it should be implemented soon')
   };
 
   return (
