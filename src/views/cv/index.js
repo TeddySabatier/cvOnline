@@ -56,58 +56,111 @@ const CV = () => {
     setLanguageSelected(event.target.getAttribute('name'));
   }
 
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => { // Use screen width because xs does not trigger on phones
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
-    <Grid container space={1} style={{ maxHeight: '100vh' }}>
-      <Grid item xs={12} style={{ marginBottom: 10 }}>
-        <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
-      </Grid>
-      <Grid
-        item xs={12}
-        md={3}
-        className={classes.leftContainer}
-        container
-        spacing={1}
-      >
-        <Grid item xs={12}>
-          <Typography variant='h2'>Teddy Sabatier</Typography>
+    <>
+      {screenWidth > 768 ?
+        <Grid container space={1} style={{ maxHeight: '100vh' }}>
+          <Grid item xs={12} style={{ marginBottom: 10 }}>
+            <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
+          </Grid>
+          <Grid
+            item xs={12}
+            lg={3}
+            className={classes.leftContainer}
+            container
+            spacing={1}
+          >
+            <Grid item xs={12}>
+              <Typography variant='h2'>Teddy Sabatier</Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Informations languageSelected={languageSelected} />
+            </Grid>
+            <Grid item xs={12}>
+              <Divider />
+            </Grid>
+            <Grid item xs={12}>
+              <Languages languageSelected={languageSelected} />
+            </Grid>
+            <Grid item xs={12}>
+              <Divider />
+            </Grid>
+            <Grid item xs={12}>
+              <ItSkills languageSelected={languageSelected} />
+            </Grid>
+            <Grid item xs={12}>
+              <Divider />
+            </Grid>
+            <Grid item xs={12}>
+              <Skills languageSelected={languageSelected} />
+            </Grid>
+          </Grid>
+          <Grid container item xs={12} lg={7} >
+            <Grid item xs={12} md={4} className={classes.mainTopContainer}>
+              <EducationDiploma languageSelected={languageSelected} />
+            </Grid>
+            <Grid item xs={12} md={8} className={classes.mainTopContainer}>
+              <Experiences languageSelected={languageSelected} />
+            </Grid>
+            <Grid item xs={12} className={classes.mainBottomContainer}>
+              <Projects languageSelected={languageSelected} />
+            </Grid>
+          </Grid>
+          <Grid item xs={12} lg={2} style={{ maxHeight: '93vh' }}>
+            <Hobbies languageSelected={languageSelected} />
+          </Grid>
         </Grid>
-        <Grid item xs={12}>
-          <Informations languageSelected={languageSelected} />
+        :
+        <Grid container space={1} style={{ maxHeight: '100vh' }}>
+          <Grid item xs={12} style={{ marginBottom: 10 }}>
+            <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
+          </Grid>
+          <Grid item xs={12}>
+            <Typography variant='h2'>Teddy Sabatier</Typography>
+          </Grid>
+          <Grid item xs={9}>
+            <Informations languageSelected={languageSelected} />
+          </Grid>
+
+          <Grid item xs={3}>
+            <Languages languageSelected={languageSelected} />
+          </Grid>
+
+          <Grid item xs={6}>
+            <ItSkills languageSelected={languageSelected} />
+          </Grid>
+
+          <Grid item xs={6}>
+            <Skills languageSelected={languageSelected} />
+          </Grid>
+          <Grid item xs={6} >
+            <EducationDiploma languageSelected={languageSelected} />
+          </Grid>
+          <Grid item xs={6} >
+            <Experiences languageSelected={languageSelected} />
+          </Grid>
+          <Grid item xs={6} >
+            <Projects languageSelected={languageSelected} />
+          </Grid>
+          <Grid item xs={6}>
+            <Hobbies languageSelected={languageSelected} />
+          </Grid>
         </Grid>
-        <Grid item xs={12}>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Languages languageSelected={languageSelected} />
-        </Grid>
-        <Grid item xs={12}>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <ItSkills languageSelected={languageSelected} />
-        </Grid>
-        <Grid item xs={12}>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Skills languageSelected={languageSelected} />
-        </Grid>
-      </Grid>
-      <Grid container item xs={12} md={7} >
-        <Grid item xs={12} md={4} className={classes.mainTopContainer}>
-          <EducationDiploma languageSelected={languageSelected} />
-        </Grid>
-        <Grid item xs={12} md={8} className={classes.mainTopContainer}>
-          <Experiences languageSelected={languageSelected} />
-        </Grid>
-        <Grid item xs={12} className={classes.mainBottomContainer}>
-          <Projects languageSelected={languageSelected} />
-        </Grid>
-      </Grid>
-      <Grid item xs={12} md={2} style={{ maxHeight: '93vh' }}>
-        <Hobbies languageSelected={languageSelected} />
-      </Grid>
-    </Grid>
+
+      }
+    </>
   );
 };
 
