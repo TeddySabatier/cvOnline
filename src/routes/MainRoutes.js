@@ -4,7 +4,7 @@ import Loadable from 'ui-component/Loadable';
 const CV = Loadable(lazy(() => import('views/cv')));
 
 const MainRoutes = {
-  path: '/',
+  path: '/cvOnline',
   element: <CV />,
 };
 
