@@ -127,7 +127,7 @@ const AppBarCustom = ({ handleClick, languageSelected }) => {
     setArrowEffect(false);
   }
   return (
-    <AppBar position="static" style={{ maxHeight: '5vh' }}>
+    <AppBar position="static">
       <Toolbar>
         <Typography
           name='en'
@@ -137,7 +137,7 @@ const AppBarCustom = ({ handleClick, languageSelected }) => {
         >
           En
         </Typography>
-        <Divider orientation="vertical" flexItem />
+        <Divider orientation="vertical" flexItem  style={{marginTop: '1.2vh' ,marginBottom: '1.2vh'}}/>
         <Typography
           name='fr'
           onClick={desactivateArrow}
