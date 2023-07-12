@@ -17,7 +17,16 @@ export default function componentStyleOverrides(theme) {
       },
       styleOverrides: {
         root: {
-          backgroundImage: 'none'
+          backgroundImage: 'none',
+          "&::-webkit-scrollbar": {
+            width: 10,
+          },
+          "&::-webkit-scrollbar-track": {
+          },
+          "&::-webkit-scrollbar-thumb": {
+            backgroundColor: theme.colors?.secondary200,
+            borderRadius: 15
+          },
         },
         rounded: {
           borderRadius: `${theme?.customization?.borderRadius}px`
@@ -37,7 +46,7 @@ export default function componentStyleOverrides(theme) {
           },
           "&::-webkit-scrollbar-thumb": {
             backgroundColor: theme.colors?.secondary200,
-            borderRadius:3
+            borderRadius: 3
           },
         },
       }
@@ -200,6 +209,13 @@ export default function componentStyleOverrides(theme) {
         tooltip: {
           color: theme.paper,
           background: theme.colors?.grey700
+        }
+      }
+    },
+    MuiToolbar: {
+      styleOverrides: {
+        root: {
+          padding: '2px'
         }
       }
     }
