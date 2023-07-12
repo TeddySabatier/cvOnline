@@ -54,17 +54,17 @@ const Skills = (props) => {
   return (
     <>
       <Typography variant='h3'>{TRANSLATION.sectionTitle}</Typography>
-      <Grid container spacing={1}>
-        <Grid item xs={12} lg={1}  display='flex' flexWrap='wrap' alignContent='center' justifyContent='center'>
+      <Grid container spacing={1} alignItems='center' >
+        <Grid item  xs={3} lg={1} display='flex' flexWrap='wrap' alignContent='center' justifyContent='center'>
           <AddCircleIcon color='primary' />
         </Grid>
-        <Grid item xs={12} lg={5}>
+        <Grid item  xs={9} lg={5}>
           {skipTranslationKeys(TRANSLATION.strong.data).map(key => <SkillColumn {...TRANSLATION.strong.data[key]} key={key} />)}
         </Grid>
-        <Grid item xs={12} lg={1}  display='flex' flexWrap='wrap' alignContent='center' justifyContent='center'>
+        <Grid item  xs={3} lg={1} display='flex' flexWrap='wrap' alignContent='center' justifyContent='center'>
           <RemoveCircleIcon color='primary' />
         </Grid>
-        <Grid item xs={12} lg={5}>
+        <Grid item  xs={9} lg={5}>
           {skipTranslationKeys(TRANSLATION.weak.data).map(key => <SkillColumn {...TRANSLATION.weak.data[key]} key={key} />)}
 
         </Grid>

@@ -41,7 +41,7 @@ const PopoverContent = (props) => {
         </IconButton>
       </Grid>
       {imagesCarousel.length > 1 ?
-        <Grid container item xs={12} md={6} spacing={2}>
+        <Grid container item xs={6} spacing={2}>
           {subparts.map(sub =>
             <Grid item xs={12}>
               <Typography variant='h4'> {sub.subtitle}</Typography>
@@ -60,7 +60,7 @@ const PopoverContent = (props) => {
         </Grid>
       }
       {imagesCarousel.length > 1 &&
-        <Grid item xs={12} md={6} alignItems='center' justifyContent='center' display='flex'>
+        <Grid item xs={6} alignItems='center' justifyContent='center' display='flex'>
           <Carousel animation duration={4000} images={imagesCarousel} />
         </Grid>
       }
@@ -80,6 +80,15 @@ const useStyles = makeStyles()(theme => ({
   },
   card: {
     '&:hover': {
+      "@keyframes opacity-increase": {
+        "0%": {
+          opacity: 0.5,
+        },
+        "100%": {
+          opacity: 1,
+        }
+      },
+      animation: "opacity-increase 0.5s ease",
       backgroundColor: theme.palette.secondary.light
     }
   }

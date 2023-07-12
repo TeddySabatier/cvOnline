@@ -37,7 +37,16 @@ const useStyles = makeStyles()(theme => ({
     cursor: 'pointer',
     padding: 5,
     borderRadius: '5%',
-    "&:hover":{
+    '&:hover': {
+      "@keyframes opacity-increase": {
+        "0%": {
+          opacity: 0.5,
+        },
+        "100%": {
+          opacity: 1,
+        }
+      },
+      animation: "opacity-increase 0.5s ease",
       backgroundColor: theme.palette.secondary.light
     }
   },
