@@ -40,12 +40,30 @@ const useStyles = makeStyles()(theme => ({
   },
   schoolRelated: {
     '&:hover': {
-      backgroundColor: theme.palette.secondary.light
+      "@keyframes opacity-increase": {
+        "0%": {
+          opacity: 0.5,
+        },
+        "100%": {
+          opacity: 1,
+        }
+      },
+      animation: "opacity-increase 0.5s ease",
+      backgroundColor: theme.palette.primary.light
     }
   },
   personal: {
     '&:hover': {
-      backgroundColor: theme.palette.primary.light
+      "@keyframes opacity-increase": {
+        "0%": {
+          opacity: 0.5,
+        },
+        "100%": {
+          opacity: 1,
+        }
+      },
+      animation: "opacity-increase 0.5s ease",
+      backgroundColor: theme.palette.secondary.light
     }
   }
 }));

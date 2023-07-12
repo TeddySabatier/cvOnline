@@ -28,8 +28,8 @@ const useStyles = makeStyles()(theme => ({
     }
   },
   mainBottomContainer: {
-    maxHeight: '43vh',
-    minHeight: '43vh',
+    maxHeight: '42vh',
+    minHeight: '42vh',
     overflow: 'hidden',
     '&:hover': {
       overflow: 'auto'
@@ -43,6 +43,16 @@ const useStyles = makeStyles()(theme => ({
     '&:hover': {
       overflowY: 'auto'
     }
+  },
+  paddingLeftRight: {
+    paddingRight: 10,
+    paddingLeft: 10,
+  },
+  paddingRight: {
+    paddingRight: 10,
+  },
+  paddingLeft: {
+    paddingLeft: 10,
   }
 }))
 const CV = () => {
@@ -68,19 +78,40 @@ const CV = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+  const screenWidthCond = screenWidth > 768;
+  const smartphoneDisplay =
+    screenWidthCond ?
+      {
+        mainContainer: {
+          maxHeight: '100vh',
+        },
+        appBar: {
+          marginBottom: 20,
+          maxHeight: '5vh',
+        },
+      }
+      :
+      {
+        mainContainer: {},
+        appBar: {
+          marginBottom: 10,
+        }
+      }
+
   return (
-    <>
-      {screenWidth > 768 ?
-        <Grid container space={1} style={{ maxHeight: '100vh' }}>
-          <Grid item xs={12} style={{ marginBottom: 10 }}>
-            <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
-          </Grid>
+    <Grid container space={1} style={smartphoneDisplay.mainContainer}>
+      <Grid item xs={12} style={smartphoneDisplay.appBar}>
+        <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
+      </Grid>
+      {screenWidthCond ?
+        <>
           <Grid
-            item xs={12}
-            lg={3}
+            item
+            xs={3}
             className={classes.leftContainer}
             container
             spacing={1}
+
           >
             <Grid item xs={12}>
               <Typography variant='h2'>Teddy Sabatier</Typography>
@@ -107,7 +138,7 @@ const CV = () => {
               <Skills languageSelected={languageSelected} />
             </Grid>
           </Grid>
-          <Grid container item xs={12} lg={7} >
+          <Grid container item xs={7} >
             <Grid item xs={12} md={4} className={classes.mainTopContainer}>
               <EducationDiploma languageSelected={languageSelected} />
             </Grid>
@@ -118,49 +149,45 @@ const CV = () => {
               <Projects languageSelected={languageSelected} />
             </Grid>
           </Grid>
-          <Grid item xs={12} lg={2} style={{ maxHeight: '93vh' }}>
+          <Grid item xs={2} style={{ maxHeight: '93vh' }}>
             <Hobbies languageSelected={languageSelected} />
           </Grid>
-        </Grid>
+        </>
         :
-        <Grid container space={1} style={{ maxHeight: '100vh' }}>
-          <Grid item xs={12} style={{ marginBottom: 10 }}>
-            <AppBarCustom languageSelected={languageSelected} handleClick={handleClickAppBarLanguages} />
-          </Grid>
-          <Grid item xs={12}>
+        <>
+          <Grid item xs={12} className={classes.paddingLeftRight}>
             <Typography variant='h2'>Teddy Sabatier</Typography>
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={9} className={classes.paddingLeft}>
             <Informations languageSelected={languageSelected} />
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item xs={3} className={classes.paddingRight}>
             <Languages languageSelected={languageSelected} />
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={8} className={classes.paddingLeft}>
             <ItSkills languageSelected={languageSelected} />
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={4} className={classes.paddingRight}>
             <Skills languageSelected={languageSelected} />
           </Grid>
-          <Grid item xs={6} >
+          <Grid item xs={6}  className={classes.paddingLeft}>
             <EducationDiploma languageSelected={languageSelected} />
           </Grid>
-          <Grid item xs={6} >
+          <Grid item xs={6}  className={classes.paddingRight}>
             <Experiences languageSelected={languageSelected} />
           </Grid>
-          <Grid item xs={6} >
+          <Grid item xs={6}  className={classes.paddingLeft}>
             <Projects languageSelected={languageSelected} />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} className={classes.paddingRight}>
             <Hobbies languageSelected={languageSelected} />
           </Grid>
-        </Grid>
-
+        </>
       }
-    </>
+    </Grid >
   );
 };
 
