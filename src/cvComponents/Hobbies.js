@@ -116,7 +116,6 @@ const Hobbies = (props) => {
 
   const open = Boolean(popover.anchorEl);
   const id = open ? 'simple-popover' : undefined;
-  console.log(popover.keyImage, images.hobbies[popover.keyImage])
   return (
     <>
       <Popover
