@@ -1,5 +1,6 @@
 
 import React from "react";
+import { useState } from "react";
 
 import {
   Badge,
@@ -10,22 +11,28 @@ import {
   Grid,
   Grow,
   LinearProgress,
-  Paper, Typography
+  Paper, Tooltip, Typography
 } from "@mui/material";
 import { makeStyles } from 'tss-react/mui';
+import LockIcon from '@mui/icons-material/Lock';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import LocalizedStrings from 'react-localization';
 import PROJECTSen from "languages/en/projects";
 import PROJECTSfr from "languages/fr/projects";
 import skipTranslationKeys from "utils/skipTranslationKeys";
-import { useState } from "react";
+import { goToLink } from "utils";
+import { Box } from "@mui/system";
+
 
 const TRANSLATION = new LocalizedStrings({
   en: {
-    ...PROJECTSen
+    ...PROJECTSen,
+    private:'Private project'
   },
   fr: {
-    ...PROJECTSfr
+    ...PROJECTSfr,
+    private:'Project privé'
   }
 });
 
@@ -102,7 +109,27 @@ const Projects = (props) => {
           <Card>
             <CardActionArea onClick={() => setProjectOpen(false)}>
               <CardContent>
-                <Typography variant='h4'> {projectOpen.title}</Typography>
+                <Box  display='flex'  alignItems='center' flexDirection='row' paddingBottom='5px'>
+                  <Typography variant='h4' paddingRight='5px'> {projectOpen.title}</Typography>
+                  {projectOpen.githubLink ? 
+                      <Chip 
+                        className={classes.chip} 
+                        color={projectOpen.color} 
+                        variant='outlined' 
+                        icon={<GitHubIcon />} 
+                        label={projectOpen.title} 
+                        onClick={(e) => {
+                          e.preventDefault(); 
+                          e.stopPropagation(); 
+                          goToLink(projectOpen.githubLink)();
+                        } }
+                      />
+                      :
+                      <Tooltip title={TRANSLATION.private}>
+                        <LockIcon/>
+                      </Tooltip>
+                  }
+                </Box>
                 <Grow
                   in={Boolean(projectOpen)}
                   style={{ transformOrigin: '0 0 0' }}

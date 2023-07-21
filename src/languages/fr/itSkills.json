@@ -55,6 +55,16 @@
       "language": "VBA (Visual Basic for Applications)",
       "grade10": 8.5,
       "description": "J'utilise principalement VBA pour aider mon père à gérer ses feuilles Excel et automatiser des tâches complexes ou créer des formulaires utilisateur."
+    },
+    {
+      "language": "Cloud",
+      "grade10": 8.5,
+      "description": "Grâce à une formation complète en réseaux, j'ai développé une grande aisance dans la gestion des infrastructures cloud. Mes projets scolaires m'ont principalement familiarisé avec AWS, mais je maîtrise également l'utilisation de Digital Ocean. Travailler avec des Machines Virtuelles (VMs) et en assurer une gestion efficace est devenu essentiel pour moi. Je considère cette compétence comme un atout fondamental dans l'univers technologique actuel."
+    },    
+    {
+      "language": "Cisco",
+      "grade10": 7,
+      "description": "Au cours de mes études, j'ai acquis une connaissance essentielle des systèmes Cisco et obtenu des qualifications de base. Les travaux pratiques m'ont permis d'acquérir une expérience concrète dans la configuration des routeurs, des commutateurs et d'autres équipements Cisco. Je suis convaincu que cette expertise sera toujours précieuse et bénéfique dans divers scénarios de mise en réseau."
     }
   ]
 }
