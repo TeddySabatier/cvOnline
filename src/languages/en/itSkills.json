@@ -55,6 +55,17 @@
       "language": "VBA (Visual Basic for Applications)",
       "grade10": 8.5,
       "description": "I primarily employ VBA to assist my father in managing his Excel sheets and automate complex tasks or create user forms."
+    },
+    {
+      "language": "Cloud",
+      "grade10": 8.5,
+      "description": "Having received formal training in networks, I am proficient in working with cloud infrastructures. My experience primarily revolves around AWS from my school projects, but I am also familiar with digital ocean. Working with Virtual Machines (VMs) and effectively managing them is essential for me. I consider it a fundamental skillset in today's technological landscape."
+    },
+    {
+      "language": "Cisco",
+      "grade10": 7,
+      "description": "During my studies, I acquired essential knowledge about Cisco systems and obtained basic qualifications. The practical lessons involved hands-on experience in configuring routers, switches, and other Cisco devices. I believe this expertise will always prove valuable and be advantageous in various networking scenarios."
     }
+    
   ]
 }
