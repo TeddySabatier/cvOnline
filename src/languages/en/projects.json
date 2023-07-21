@@ -6,17 +6,26 @@
       {
         "title": "Git Mass Manage",
         "completion": 100,
+        "githubLink": "https://github.com/TeddySabatier/GitMassManageTSE",
         "description": "This project aimed to efficiently manage Git repositories. Working as part of a 4-student team, we successfully accomplished the project by developing a Java-based UI and backend."
       },
       {
         "title": "Spaceship",
         "completion": 100,
+        "githubLink": "https://github.com/TeddySabatier/OpenCVQTTSE",
         "description": "The objective of this project was to create a spaceship using Qt (C/C++). One of the main challenges we faced was optimizing the code to minimize resource consumption."
       },
       {
-        "title": "Project Management",
+        "title": "StartUpBack",
         "completion": 100,
-        "description": "For this project, we developed a project management website using Angular for the frontend and a Spring Boot backend."
+        "githubLink": "https://github.com/TeddySabatier/StartUpBack",
+        "description": "In this project, we developed a Java back-end using the Spring Boot framework to efficiently manage projects and users. Although it was a basic endeavor, it provided me with valuable insights into various principles related to Spring Boot back-ends. One of the notable accomplishments was learning how to conduct unit tests with Spring Boot. This experience significantly contributed to enhancing my proficiency in developing Spring Boot applications."
+      },
+      {
+        "title": "BigDataProject",
+        "completion": 100,
+        "githubLink": "https://github.com/arnaud-ant/BigDataProject",
+        "description": "The primary objective of this project was to introduce students to various complexities associated with hosting an infrastructure on the cloud. The infrastructure comprised a back-end, a webpage, and an AI program. The purpose was to create an oral quiz platform where users could answer questions verbally. My role focused on the machine learning aspect, involving the analysis and classification of audio answers (yes/no). This exposure to the field of machine learning sparked my interest and curiosity. The entire process, starting from data quality assessment and cleaning, to experimenting with different parameters/models, proved to be captivating and challenging. Thanks to the successful training of a specific model, our team achieved the best results in our class. Overall, this project served as an excellent introduction to the world of machine learning, and the skills acquired can now be applied to future projects."
       }
     ]
   },
@@ -31,11 +40,13 @@
       {
         "title": "Maps scrapping",
         "completion": 100,
+        "githubLink": "https://github.com/TeddySabatier/mapsScrapping",
         "description": "Obtain relevant data by scraping maps for specific combinations of words and locations."
       },
       {
-        "title": "Cv online",
+        "title": "CvOnline",
         "completion": 70,
+        "githubLink": "https://github.com/TeddySabatier/cvOnline",
         "description": "Showcase a detailed presentation of my professional profile on a webpage, effectively resembling a traditional CV format."
       }
     ]
