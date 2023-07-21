@@ -66,11 +66,11 @@ const CV = () => {
     setLanguageSelected(event.target.getAttribute('name'));
   }
 
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(window.outerWidth);
 
   useEffect(() => { // Use screen width because xs does not trigger on phones
     const handleResize = () => {
-      setScreenWidth(window.innerWidth);
+      setScreenWidth(window.outerWidth);
     };
 
     window.addEventListener('resize', handleResize);
